@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import ArticleSlides from '../components/ArticleSlides';
-import PringleAcidosisModel from '../components/PringleAcidosisModel';
-import { SlideProvider } from '../context/SlideContext';
+import ArticleSlides from '@/components/ArticleSlides';
+import PringleAcidosisModel from '@/components/PringleAcidosisModel';
+import { SlideProvider } from '@/context/SlideContext';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
